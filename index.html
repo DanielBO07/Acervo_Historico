@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
+    <script>
+    function Intro() 
+    {
+        window.scrollTo(0, 495);
+    }
+    function Historia()
+    {
+        window.scrollTo(0, 1150);
+    }
+    function Visitacao()
+    {
+        window.scrollTo(0, 1800);
+    }
+    </script>
     <title>Acervo Hisórico</title>
 </head>
 <body>
     <nav class="cabecalho">
         <img src="img/logo.png" class="logo">
+        <button onclick="Intro()">Intro</button>
+        <button onclick="Historia()">História</button>
+        <button onclick="Visitacao()">Visitação</button>
     </nav>
     <div class="banner"></div>
     <div class="titulo">
@@ -53,8 +70,22 @@
         </h3>
         <img src="img/Antigo.jpg" width="40%">
     </div>
+    <div class="titulo">
+        <div>
+            <h2>Visitação</h2>
+        </div>
+    </div>
+    <div class="texto">
+        <img src="img/Rua.jpg" width="40%">
+        <div>
+            <h1>Horário de atendimento:</h1>
+            <h3>Segunda a Sexta-feira, das 10h às 16h (oferece horários alternativos de atendimento mediante agendamento e disponibilidade).</h3>
+            <h1>Endereço:</h1>
+            <h3>Avenida Júlio de Castilhos, nº 318 - Bairro Nossa Senhora de Lourdes.</h3>
+        </div>
+    </div>
     <footer>
-        
+
     </footer>
 </body>
 </html>
