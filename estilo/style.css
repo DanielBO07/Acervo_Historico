@@ -74,6 +74,7 @@ body{
 .texto *{
     width: 40%;
 }
+
 .texto *:first-child{
     margin-right: 60px;
 }
@@ -88,9 +89,15 @@ footer{
     justify-content: center;
 }
 .navegue{
-    padding-left: 120px;
+    padding-left: 90px;
     font-size: 20px;
     color: white;
+}
+.navegue p{
+    margin-top: 12%;
+}
+.navegue a{
+    color: grey;
 }
 footer div{
     display: table;
@@ -111,7 +118,7 @@ footer div div div div{
     width: 100px;
     padding-left: 100px;
 }
+
 footer p{
-    color: white;
-    
+    color: grey;
 }
