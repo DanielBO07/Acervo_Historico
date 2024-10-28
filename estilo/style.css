@@ -12,15 +12,26 @@ html {
     display: flex;
     background-color: #22726F;
     align-items: center;
-    justify-content: center;
     top: 0%;
     color: #023844;
+}
+.cabecalho div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cabecalho div:first-child{
+    justify-content: left;
+}
+.cabecalho img{
+    margin-left: 40px;
 }
 .cabecalho button{
     color: #023844;
     border:none;
     border-right: #023844 solid 2px;
     padding: 10px;
+    padding-inline: 40px;
     background: none;
     cursor: pointer;
 }
@@ -66,6 +77,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .texto img{
@@ -74,7 +86,9 @@ body{
 .texto *{
     width: 40%;
 }
-
+.texto div *{
+    width: 100%;
+}
 .texto *:first-child{
     margin-right: 60px;
 }
