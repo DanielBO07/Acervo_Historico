@@ -78,8 +78,40 @@ body{
     margin-right: 60px;
 }
 
+/*rodape*/
 footer{
     background-color: black;
     height: 30vh;
     margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navegue{
+    padding-left: 120px;
+    font-size: 20px;
+    color: white;
+}
+footer div{
+    display: table;
+}
+ 
+footer div div{
+    display: table-row;
+}
+ 
+footer div div div{
+    display: table-cell;
+}
+ 
+footer div div div div{
+    display: table-cell;
+}
+.logorodape{
+    width: 100px;
+    padding-left: 100px;
+}
+footer p{
+    color: white;
+    
 }
